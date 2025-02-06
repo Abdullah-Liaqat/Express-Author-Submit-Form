@@ -2,12 +2,12 @@
 
 ## Table Content 📋
 
-- [Overview](#overview)
-- [Features](#features)
-- [Technology Stack](#technology-stack-)
-- [Set & Installation](#setup--installation)
-- [API Endpoints](#api-endpoints)
-- [License](#license)
+- [Overview](#-overview)
+- [Features](#-features)
+- [Technology Stack](#-technology-stack)
+- [Set & Installation](#-setup--installation)
+- [API Endpoints](#api-endpoints-)
+- [License](#-license)
 
 ## 🧐 Overview
 
@@ -102,7 +102,7 @@ This will start the server on `http://localhost:3000`.
 
 ---
 
-## API Endpoints
+## API Endpoints 🔚
 
 ### 1. *Sign Up* 📝🔐
 
