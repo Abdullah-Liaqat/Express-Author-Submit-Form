@@ -10,7 +10,7 @@
 
 - [Setup & Installation](#Setup&Installation)
 
-- [API ](##API)
+- [API ](##api)
 
 - [License](#license)
 ## Overview
