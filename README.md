@@ -205,7 +205,7 @@ Authorization: Bearer <encrypted_token>
  json
 ```bash
   "partnerId": <partner_id>,
-  "cartId": <cart_id>,
+  "cartId": <cartitem_id>,
   "qty": <quantity>
 ```
 
@@ -218,7 +218,7 @@ Authorization: Bearer <encrypted_token>
 
  json
 ```bash
-  "cartId": <cart_id>
+  "cartId": <cartitem_id>
 ```
 
 
