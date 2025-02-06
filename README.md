@@ -62,10 +62,10 @@ Follow these steps to set up the application locally:
 
 ### 1. Clone the repository
 
- bash
+ ```bash
 git clone https://github.com/alaparsalan/odoo-erp-nest-shop.git
 cd odoo-erp-nest-shop
-
+```
 
 ### 2. Install dependencies ⚙️
 
@@ -80,11 +80,13 @@ npm install
 Create a `.env` file in the root directory of the project and add the necessary environment variables:
 
  .env
+ ```bash
 ODOO_URL=<your_odoo_instance_url>
 ODOO_DB=<your_odoo_db_name> 
 ODOO_USERNAME=<your_odoo_username>
 ODOO_PASSWORD=<your_odoo_password>
 JWT_SECRET=<your_jwt_secret_key>
+```
 
 
 
@@ -94,11 +96,13 @@ Make sure to replace the placeholders with your actual Odoo instance details and
 
 Start the NestJS application locally:
 
- bash
+
+```bash
 npm run start:dev
+```
 
 
-This will start the server on `http://localhost:3000`.
+This will start the server on  ```http://localhost:3000```.
 
 ### 5. Access the application 👍🏻
 
@@ -111,54 +115,53 @@ This will start the server on `http://localhost:3000`.
 
 ### 1. *Sign Up* 📝🔐
 
-- *POST* `http://localhost:3000/auth/register`
+- *POST* ```http://localhost:3000/auth/register```
 
 **Request Body**:
 
 json
-{
+```bash
   "name": "<your_name>",
   "password": "<your_password>",
   "new_password": "<new_password>",
   "email": "<your_email>"
-}
+```
 
 
 **Response**:
 
 json
-{
-  "message": "User Registered Successfully!",
-  "ID": "your user ID is <ID>"
-}
 
-
+```bash
+"message": "User Registered Successfully!",
+"ID": "your user ID is <ID>"
+```
 ### 2. *Login* 🔐 🔓
 
-- *POST* `http://localhost:3000/auth/signin`
+- *POST* ```bash http://localhost:3000/auth/signin```
 
 **Request Body**:
 
 json
-{
+```bash
   "email": "<your_email>",
   "password": "<your_password>"
-}
+```
 
 
 **Response**:
 
 json
-{
+```bash
   "message": "Login Successful",
   "token": "<encrypted_token>"
-}
+```
 
 
 **Token Encryption**:
 - The *JWT token* is encrypted with two key elements:
   - **User ID**: A unique identifier for the user, ensuring that each token is linked to a specific user.
-  - *Partner ID**: The identifier used to manage *Odoo eCommerce functionalities**, such as product listings, orders, and customer data.
+  - **Partner ID**: The identifier used to manage **Odoo eCommerce functionalities**, such as product listings, orders, and customer data.
 
 **Storing Token**:
 - After a successful login, the JWT token is stored in the *browser's Local Storage*. This provides easy access to the token for making subsequent API calls, ensuring secure communication for all interactions.
@@ -173,24 +176,24 @@ Authorization: Bearer <encrypted_token>
 
 ### 3. *View All Carts* 🔎
 
-- *GET* `http://localhost:3000/cart/products`
+- *GET* ```http://localhost:3000/cart/products```
 
 ### 4. *View Cart by Partner ID* 👀
 
-- *GET* `http://localhost:3000/cart/:partnerId`
+- *GET* ```http://localhost:3000/cart/:partnerId```
 
 ### 5. *Add to Cart* 🛒
 
-- *POST* `http://localhost:3000/cart/addtocart`
+- *POST* ```http://localhost:3000/cart/addtocart```
 
 **Request Body**:
 
  json
-{
+```bash
   "partnerId": <partner_id>,
   "productId": <product_id>,
   "quantity": <quantity>
-}
+```
 
 
 ### 6. *Update Cart* 🆕
@@ -200,11 +203,11 @@ Authorization: Bearer <encrypted_token>
 **Request Body**:
 
  json
-{
+```bash
   "partnerId": <partner_id>,
   "cartId": <cart_id>,
   "qty": <quantity>
-}
+```
 
 
 ### 7. *Delete Cart Item* 🚮
@@ -214,9 +217,9 @@ Authorization: Bearer <encrypted_token>
 **Request Body**:
 
  json
-{
+```bash
   "cartId": <cart_id>
-}
+```
 
 
 ### 8. *View All Orders* 🛒🛍️
@@ -228,12 +231,12 @@ Authorization: Bearer <encrypted_token>
 - *GET* `http://localhost:3000/products/fetch?limit=1&offset=0`
 
 **Query Parameters**:
-- `limit`: Number of products to fetch.
-- `offset`: Starting point for pagination.
+- ```limit```: Number of products to fetch.
+- ```offset```: Starting point for pagination.
 
 ## 🛡️ Securing Routes with JWT
 
-Ensure that any route requiring authentication has the JWT token in the `Authorization` header. The format should be:
+Ensure that any route requiring authentication has the JWT token in the ```Authorization``` header. The format should be:
 
  bash
 Authorization: Bearer <jwt_token>
@@ -251,10 +254,10 @@ We welcome contributions to this project! If you'd like to contribute, feel free
 ### Steps to contribute:
 
 1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/your-feature`).
+2. Create a new branch (```git checkout -b feature/your-feature```).
 3. Make your changes.
-4. Commit your changes (`git commit -am 'Add new feature'`).
-5. Push to the branch (`git push origin feature/your-feature`).
+4. Commit your changes (```git commit -am 'Add new feature'```).
+5. Push to the branch (```git push origin feature/your-feature```).
 6. Create a new pull request.
 
 ## 🎫 License
