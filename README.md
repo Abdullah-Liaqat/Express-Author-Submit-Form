@@ -4,13 +4,13 @@
 
 - [Overview](##Overview)
 
-- [Features](##Features)
+- [Features](##features)
 
 - [Technology Stack](#TechnologyStack)
 
 - [Setup & Installation](#Setup&Installation)
 
-- [API ](##api)
+- [API](#api)
 
 - [License](#license)
 ## Overview
