@@ -8,7 +8,7 @@
 
 - [Technology Stack](#TechnologyStack)
 
-- [Setup & Installation](#Setup&Installation)
+- [Setup & Installation](#setup&installation)
 
 - [API](#api)
 
