@@ -95,7 +95,7 @@ This will start the server on `http://localhost:3000`.
 
 ---
 
-## API
+## API Endpoints
 
 ### 1. *Sign Up*
 
