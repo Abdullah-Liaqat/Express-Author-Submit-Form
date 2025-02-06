@@ -6,7 +6,7 @@
 
 - [Features](##features)
 
-- [Technology Stack](#TechnologyStack)
+- [Technology Stack](#technology-stack)
 
 - [Setup & Installation](#setup--installation)
 
