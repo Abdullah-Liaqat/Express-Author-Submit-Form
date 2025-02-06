@@ -1,15 +1,15 @@
 # Odoo eCommerce and JWT Authentication Integration in NestJS with Odoo ERP 18.0
 
-## Table Content
+## Table Content 📋
 
 - [Overview](#overview)
 - [Features](#features)
-- [Technology Stack](#technology-stack)
+- [Technology Stack](#technology-stack-)
 - [Set & Installation](#setup--installation)
-- [API Endpoints](#api)
+- [API Endpoints](#api-endpoints)
 - [License](#license)
 
-## Overview
+## 🧐 Overview
 
 This application integrates Odoo’s eCommerce functionalities with NestJS through external APIs, utilizing Odoo ERP 18.0. The integration allows seamless management of key business operations, including product listings, order processing, and cart management, by tapping into Odoo’s robust eCommerce capabilities.
 
@@ -17,32 +17,39 @@ To secure sensitive operations, the application incorporates JWT (JSON Web Token
 
 By leveraging Odoo's external APIs for eCommerce features, users benefit from the full capabilities of Odoo ERP, while the system remains protected with token-based authentication to ensure both security and efficiency in the online store management.
 
-- **Odoo Documentation**: [
+- **Odoo Documentation**: [https://www.odoo.com/documentation/18.0/]
 - **Repository Clone Link**: [
 
-## Features
+## ⚡ Features
 
-- **JWT Authentication**: Secure routes with token-based authentication.
-- **XML-RPC Integration**: Seamless communication between the NestJS application and Odoo ERP 17.0 for eCommerce management.
-- **Basic eCommerce Features**:
-  - Add products to the cart
-  - View cart products
-  - Update cart products
-  - Remove products from the cart
-- **Security Enhancements**: Strengthening application security through secure authentication practices.
+👉 **JWT Authentication**: Secure routes with token-based authentication.
 
-## Technology Stack
+👉 **XML-RPC Integration**: Seamless communication between the NestJS application and Odoo ERP 17.0 for eCommerce management.
+
+👉 **Basic eCommerce Features**:
+
+  ✍ Add products to the cart
+  
+  ✍ View cart products
+  
+  ✍ Update cart products
+  
+  ✍ Remove products from the cart
+  
+👉 **Security Enhancements**: Strengthening application security through secure authentication practices.
+
+## 👨🏻‍💻 Technology Stack 
 
 - **NestJS**: A progressive Node.js framework for building efficient, reliable, and scalable server-side applications.
 - **Odoo ERP 18.0**: Open-source business application suite for managing various business operations like sales, inventory, accounting, and more.
 - **JWT (JSON Web Tokens)**: For securing API routes.
 - **XML-RPC**: For integrating Odoo ERP with the NestJS application.
 
-## Setup & Installation
+## 👨🏻‍🔧 Setup & Installation 
 
 Follow these steps to set up the application locally:
 
-### Prerequisites
+### Prerequisites 📜
 
 - Node.js (v16 or later)
 - NPM (or Yarn)
@@ -55,12 +62,12 @@ git clone https://github.com/alaparsalan/odoo-erp-nest-shop.git
 cd odoo-erp-nest-shop
 
 
-### 2. Install dependencies
+### 2. Install dependencies ⚙️
 
 Run the following command to install the necessary dependencies for the project:
 
  bash
-npm install
+npm install 
 
 
 ### 3. Configure environment variables
@@ -78,7 +85,7 @@ JWT_SECRET=<your_jwt_secret_key>
 
 Make sure to replace the placeholders with your actual Odoo instance details and JWT secret key.
 
-### 4. Run the application
+### 4. Run the application 🏃🏾‍♀️‍➡️
 
 Start the NestJS application locally:
 
@@ -88,7 +95,7 @@ npm run start:dev
 
 This will start the server on `http://localhost:3000`.
 
-### 5. Access the application
+### 5. Access the application 👍🏻
 
 - Navigate to `http://localhost:3000` to access the eCommerce functionality.
 - Use Postman or any API testing tool to test the JWT-secured routes.
@@ -97,7 +104,7 @@ This will start the server on `http://localhost:3000`.
 
 ## API Endpoints
 
-### 1. *Sign Up*
+### 1. *Sign Up* 📝🔐
 
 - *POST* `http://localhost:3000/auth/register`
 
@@ -121,7 +128,7 @@ json
 }
 
 
-### 2. *Login*
+### 2. *Login* 🔐 🔓
 
 - *POST* `http://localhost:3000/auth/signin`
 
@@ -159,15 +166,15 @@ Authorization: Bearer <encrypted_token>
 
 
 
-### 3. *View All Carts*
+### 3. *View All Carts* 🔎
 
 - *GET* `http://localhost:3000/cart/products`
 
-### 4. *View Cart by Partner ID*
+### 4. *View Cart by Partner ID* 👀
 
 - *GET* `http://localhost:3000/cart/:partnerId`
 
-### 5. *Add to Cart*
+### 5. *Add to Cart* 🛒
 
 - *POST* `http://localhost:3000/cart/addtocart`
 
@@ -181,7 +188,7 @@ Authorization: Bearer <encrypted_token>
 }
 
 
-### 6. *Update Cart*
+### 6. *Update Cart* 🆕
 
 - *PUT* `http://localhost:3000/cart/updatecart`
 
@@ -195,7 +202,7 @@ Authorization: Bearer <encrypted_token>
 }
 
 
-### 7. *Delete Cart Item*
+### 7. *Delete Cart Item* 🚮
 
 - *DELETE* `http://localhost:3000/cart/removeitem`
 
@@ -207,7 +214,7 @@ Authorization: Bearer <encrypted_token>
 }
 
 
-### 8. *View All Orders*
+### 8. *View All Orders* 🛒🛍️
 
 - *GET* `http://localhost:3000/orders/fetch`
 
@@ -219,7 +226,7 @@ Authorization: Bearer <encrypted_token>
 - `limit`: Number of products to fetch.
 - `offset`: Starting point for pagination.
 
-## Securing Routes with JWT
+## 🛡️ Securing Routes with JWT
 
 Ensure that any route requiring authentication has the JWT token in the `Authorization` header. The format should be:
 
@@ -232,7 +239,7 @@ Authorization: Bearer <jwt_token>
 - NestJS Documentation
 - Odoo ERP 18.0 Documentation
 
-## Contributing
+## 🤝 Contributing
 
 We welcome contributions to this project! If you'd like to contribute, feel free to fork the repository, submit pull requests, or open issues.
 
@@ -245,6 +252,7 @@ We welcome contributions to this project! If you'd like to contribute, feel free
 5. Push to the branch (`git push origin feature/your-feature`).
 6. Create a new pull request.
 
-## License
+## 🎫 License
+[![License](https://img.shields.io/:License-MIT-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
