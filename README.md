@@ -13,13 +13,11 @@
 - [License](#-license)
 
 ## 🧐 Overview
-In this application, Odoo ERP is integrated using the XML-RPC library. XML-RPC is a remote procedure call (RPC) protocol that allows applications to communicate with each other, making it a useful protocol for accessing Odoo ERP.
+This application integrates Odoo’s eCommerce functionalities with NestJS through external APIs, utilizing Odoo ERP via XML-RPC. The integration allows seamless management of key business operations, including product listings, order processing, and cart management, by leveraging Odoo’s powerful eCommerce features.
 
-Through this integration, the application can efficiently manage various features of Odoo, such as product listings, order processing, and cart management. Using XML-RPC, the NestJS application can fetch data from Odoo ERP, such as product details, customer orders, and inventory updates, all seamlessly and efficiently.
+To secure sensitive operations, the application incorporates JWT (JSON Web Token) authentication. This ensures that only authorized users can access protected routes, such as adding products to the cart, viewing orders, and updating cart items, providing a secure environment for eCommerce transactions.
 
-To secure sensitive operations, JWT (JSON Web Token) authentication is also implemented. This ensures that only authorized users can access protected routes, such as adding products to the cart, viewing orders, and updating cart items. JWT authentication adds an extra layer of security, protecting eCommerce transactions and allowing only authenticated users to interact with the system.
-
-In this way, Odoo ERP is used securely and reliably via XML-RPC, with JWT ensuring both security and efficiency in managing eCommerce transactions, while providing users with real-time updates and information.
+By leveraging Odoo's external APIs via XML-RPC for eCommerce features, users benefit from the full capabilities of Odoo ERP, while the system remains protected with token-based authentication to ensure both security and efficiency in online store management.
 
 ![Image](https://github.com/user-attachments/assets/2fb177dd-676d-48e3-af9a-e6e227cc1030)
 - *Odoo Documentation*: [https://www.odoo.com/documentation/18.0/]
