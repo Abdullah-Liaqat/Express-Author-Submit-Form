@@ -2,17 +2,13 @@
 
 ## Table Content
 
-- [Overview](#overview)
+- [Overview](#overview)
+- [Features](#features)
+- [Technology Stack](#technology-stack)
+- [Set & Installation](#setup--installation)
+- [API Endpoints](#api)
+- [License](#license)
 
-- [Features](#features)
-
-- [Technology Stack](#technology-stack)
-
-- [Setup & Installation](#setup--installation)
-
-- [API](#api)
-
-- [License](#license)
 ## Overview
 
 This application integrates Odoo’s eCommerce functionalities with NestJS through external APIs, utilizing Odoo ERP 18.0. The integration allows seamless management of key business operations, including product listings, order processing, and cart management, by tapping into Odoo’s robust eCommerce capabilities.
