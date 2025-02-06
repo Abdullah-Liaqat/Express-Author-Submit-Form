@@ -1,3 +1,6 @@
+
+![Image](https://github.com/user-attachments/assets/1cb989af-f4ea-4112-bff8-863bc429baae)
+
 # Odoo eCommerce and JWT Authentication Integration in NestJS with Odoo ERP 18.0
 
 ## Table Content 📋
@@ -17,8 +20,10 @@ To secure sensitive operations, the application incorporates JWT (JSON Web Token
 
 By leveraging Odoo's external APIs for eCommerce features, users benefit from the full capabilities of Odoo ERP, while the system remains protected with token-based authentication to ensure both security and efficiency in the online store management.
 
-- **Odoo Documentation**: [https://www.odoo.com/documentation/18.0/]
-- **Repository Clone Link**: [
+
+![Image](https://github.com/user-attachments/assets/2fb177dd-676d-48e3-af9a-e6e227cc1030)
+- *Odoo Documentation*: [https://www.odoo.com/documentation/18.0/]
+
 
 ## ⚡ Features
 
