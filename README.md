@@ -1,7 +1,4 @@
-
-![Image](https://github.com/user-attachments/assets/1cb989af-f4ea-4112-bff8-863bc429baae)
-
-# Odoo eCommerce and JWT Authentication Integration in NestJS with Odoo ERP 18.0
+# NodeJs Commerce Backend With Odoo ERP
 
 ## Table Content 📋
 
@@ -14,7 +11,7 @@
 
 ## 🧐 Overview
 
-This application integrates Odoo’s eCommerce functionalities with NestJS through external APIs, utilizing Odoo ERP 18.0. The integration allows seamless management of key business operations, including product listings, order processing, and cart management, by tapping into Odoo’s robust eCommerce capabilities.
+This application integrates Odoo’s eCommerce functionalities with NestJS through external APIs, utilizing Odoo ERP. The integration allows seamless management of key business operations, including product listings, order processing, and cart management, by ####tapping into Odoo’s robust eCommerce capabilities.
 
 To secure sensitive operations, the application incorporates JWT (JSON Web Token) authentication. This ensures that only authorized users can access protected routes, such as adding products to the cart, viewing orders, and updating cart items, providing a secure environment for eCommerce transactions.
 
@@ -29,7 +26,7 @@ By leveraging Odoo's external APIs for eCommerce features, users benefit from th
 
 👉 **JWT Authentication**: Secure routes with token-based authentication.
 
-👉 **XML-RPC Integration**: Seamless communication between the NestJS application and Odoo ERP 17.0 for eCommerce management.
+👉 **XML-RPC Integration**: Seamless communication between the NestJS application and Odoo ERP for eCommerce management.
 
 👉 **Basic eCommerce Features**:
 
