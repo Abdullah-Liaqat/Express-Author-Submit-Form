@@ -20,7 +20,7 @@ To secure sensitive operations, the application incorporates JWT (JSON Web Token
 By leveraging Odoo's external APIs via XML-RPC for eCommerce features, users benefit from the full capabilities of Odoo ERP, while the system remains protected with token-based authentication to ensure both security and efficiency in online store management.
 
 ![Image](https://github.com/user-attachments/assets/2fb177dd-676d-48e3-af9a-e6e227cc1030)
-- *Odoo Documentation*: [https://www.odoo.com/documentation/18.0/]
+- *Odoo Documentation*: [https://www.odoo.com/documentation/17.0/]
 
 
 ## ⚡ Features
@@ -44,7 +44,7 @@ By leveraging Odoo's external APIs via XML-RPC for eCommerce features, users ben
 ## 👨🏻‍💻 Technology Stack 
 
 - **NestJS**: A progressive Node.js framework for building efficient, reliable, and scalable server-side applications.
-- **Odoo ERP 18.0**: Open-source business application suite for managing various business operations like sales, inventory, accounting, and more.
+- **Odoo ERP 17.0**: Open-source business application suite for managing various business operations like sales, inventory, accounting, and more.
 - **JWT (JSON Web Tokens)**: For securing API routes.
 - **XML-RPC**: For integrating Odoo ERP with the NestJS application.
 
@@ -56,7 +56,7 @@ Follow these steps to set up the application locally:
 
 - Node.js (v16 or later)
 - NPM (or Yarn)
-- Odoo ERP 18.0 instance
+- Odoo ERP 17.0 instance
 
 ### 1. Clone the repository
 
@@ -243,7 +243,7 @@ Authorization: Bearer <jwt_token>
 ## Additional Resources
 
 - NestJS Documentation
-- Odoo ERP 18.0 Documentation
+- Odoo ERP 17.0 Documentation
 
 ## 🤝 Contributing
 
