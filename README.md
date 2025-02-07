@@ -1,4 +1,4 @@
-![Image](https://github.com/user-attachments/assets/4b469d0d-f892-417c-9aee-dc55de88a8ab)
+![Image](https://github.com/user-attachments/assets/d357a8b6-c7cc-424f-b2ad-da678fb8bd46)
 
 
 # NodeJs Commerce Backend With Odoo ERP
