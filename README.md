@@ -93,7 +93,7 @@ Make sure to replace the placeholders with your actual Odoo instance details and
 ### 4. Run the application 🏃🏾‍♀️‍➡️
 
 Start the NestJS application locally:
-
+    
 
 ```bash
 npm run start:dev
