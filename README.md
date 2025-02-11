@@ -146,7 +146,7 @@ json
   "password": "<your_password>"
 ```
 
-
+    
 **Response**:
 
 json
