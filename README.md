@@ -4,7 +4,7 @@
 # NodeJs Commerce Backend With Odoo ERP
 
 ## Table Content 📋
-excuse me sorry my bad I really feel bad after that I apologize to you please pardon me.
+excuse me sorry my bad I really feel bad after 
 - [Overview](#-overview)
 - [Features](#-features) 
 - [Technology Stack](#-technology-stack)
