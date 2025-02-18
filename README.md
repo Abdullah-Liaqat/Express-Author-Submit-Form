@@ -4,7 +4,7 @@
 # NodeJs Commerce Backend With Odoo ERP
 
 ## Table Content 📋
-eorry my bad I really feel bad after 
+
 - [Overview](#-overview)
 - [Features](#-features) 
 - [Technology Stack](#-technology-stack)
