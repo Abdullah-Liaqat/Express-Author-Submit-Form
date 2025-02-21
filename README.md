@@ -1,6 +1,6 @@
 ![Image](https://github.com/user-attachments/assets/d357a8b6-c7cc-424f-b2ad-da678fb8bd46)
 
- 
+ In this moment I 've like to enhancing the commit the github repository with exploring the new term and method will become enormous.
 # NodeJs Commerce Backend With Odoo ERP
 
 ## Table Content 📋
